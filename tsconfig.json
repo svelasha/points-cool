@@ -1,0 +1,19 @@
+{
+    "include": ["**/*.ts", "**/*.tsx", "**/*.d.ts", "**/*.svg", "vite.config.mts"],
+    "compilerOptions": {
+        "esModuleInterop": true,
+        "resolveJsonModule": true,
+        "target": "ES2022",
+        "module": "Node16",
+        "paths": {
+            "@/*": ["./"]
+        },
+        "moduleResolution": "node",
+        "strictNullChecks": true,
+        "isolatedModules": true,
+        "jsx": "preserve",
+        "strict": true,
+        "baseUrl": ".",
+        "lib": ["dom"]
+    }
+}
